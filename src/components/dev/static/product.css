@@ -1,0 +1,21 @@
+@media (width >=800px) {
+    div.mainProductList {
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 470px;
+    }
+    img.mainImageImg {
+        width: 1400px;
+    }
+}
+
+@media (width <=800px) {
+    div.mainProductList {
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: red;
+        height: 470px;
+    }
+}

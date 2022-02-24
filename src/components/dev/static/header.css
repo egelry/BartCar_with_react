@@ -1,0 +1,51 @@
+@media (width >=800px) {
+    div.mainNavBar {
+        margin-left: -85px;
+        margin-right: -35px;
+        margin-top: -20px;
+    }
+    img.mainLogoImg {
+        width: 150px;
+        padding: 20px;
+    }
+    div.mainLogo {
+        width: 150px;
+        border-radius: 100px;
+        border: 1px solid rgb(206, 206, 206);
+    }
+    div.navBarItem {
+        font-family: 'Segoe UI';
+        font-weight: bolder;
+    }
+}
+
+@media (width < 800px) {
+    div.mainHeader {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    div.mainNavBar {
+        margin-top: -20px;
+        margin-left: -10px;
+        width: 100%;
+        color: yellow;
+    }
+    img.mainLogoImg {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: block;
+    }
+    div.navBarItem {
+        border: 1px solid grey;
+        padding: 5px;
+        width: 64px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: smaller;
+        font-family: 'Segoe UI';
+        font-weight: lighter;
+        background-color: white;
+    }
+}
